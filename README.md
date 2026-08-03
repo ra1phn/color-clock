@@ -1,16 +1,50 @@
-# React + Vite
+# Ralph's Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, elegant digital clock built with React and date-fns.
 
-Currently, two official plugins are available:
+This project displays the current time and date in a clean and minimal interface. It was created to practice working with React, JSX, styling, and external packages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Built With
 
-## React Compiler
+- **React** - UI library
+- **Vite** - Build tool
+- **date-fns** - Date utility library
+- **CSS** - Styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Displays current time in real-time
+- Shows current date
+- Clean and minimal user interface
+- Styled clock card layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone git@github.com:yourusername/color-clock.git
+cd color-clock
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+The app will open in your browser at the local development address provided by Vite.
+
+## Author
+
+**Ralph Njuguna**
